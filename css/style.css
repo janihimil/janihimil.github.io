@@ -1,94 +1,185 @@
 
-body {
-  background: #eae8e7;
-  color: #767270;
-  padding: 1%;
-  font-size: 14px;
-  font-family: verdana, sans-serif;
-}
-.sidebar {
-	/*position: fixed; to fix the position
-	   Left:0%; */
-  width: 23%;
-  display: inline-block;
-  margin-left: 14%;
-  background: #5da4d9;
-  color: white;
-}
+.name{
 
-img { width: 100%; }
-
-profile-info{
-		padding: 20px 10px;
-		border-bottom: 1px solid #4783c2;
-
-}
-.profile-info p {
-  margin-left: 10px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.profile-info .key {
-  font-weight: bold;
-}
-.sidebar-top {
-  position: relative;
-}
-
-.profile-basic {
-  position: absolute;
-  bottom: 5px;
-  left: 20px;
-}
-.profile-info {
-			padding: 20px 10px;
-			border-bottom: 1px solid #4783c2;
+	 		border-collapse: collapse;
+	 		width: 100%;
+	 	}
+	 	th,td{
+	 		text-align: center;
+	 		padding: 8px;
+	 	}
+	 	tr:nth-child(even){
+	 		background-color: #f2f2f2;
+	 	}
+	 	td{
+	 		font-size: 20px;
+	 		background-color: blue;
+	 		color: white;
+	 	}
+	 	.sidebartop{
+	 		margin-top: 60px;
+	 	}
+	
+	 	#circle {
+	 		position: absolute;
+			width: 180px;
+			height: 180px;
+			background: blue;
+	        -moz-border-radius: 50px;
+	        -webkit-border-radius: 50px;
+			border-radius: 98px;
+			top: 6px;
+			left: 65px;
 		}
-
-		 .profile-info p{
-			margin-left: 10px;
-			display: inline-block;
-			vertical-align: top;
-		}
-
-		.profile-info .key{
-			font-weight: bold;	
-		}
-
-		.profile-info .value{
-		}
-
-		.social-media:hover{
-			cursor: pointer;
-			color: white;
-		}
-
-		.content {
-			width: 48%;
-			margin-left: 2%;
-			display: inline-block;
-			vertical-align: top;
-		}
-
-		.work-experience, .education {
-			margin-bottom: 30px;
-			padding: 5% 2% 5% 10%;
+		 #circle1 {
+	 		position: absolute;
+			width: 160px;
+			height: 160px;
 			background: white;
-			box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	        -moz-border-radius: 50px;
+	        -webkit-border-radius: 50px;
+			border-radius: 80px;
+			top: 15px;
+			left: 75px;
 		}
+		 .profile-image{
+	 		position: absolute;
+	 		left: 40px;
+	 		top: 10px;
+	 		border-radius: 90px;
+	 	}
+	 	.objective{
+		
+		position: absolute;
+		margin-top: 110px;
+		margin-left: 43px;
 
-		.info {
-			padding: 2% 1%;
-			border-bottom: 1px solid #bdbdbd;
 		}
-    
-
-		.sub-heading { 
-      font-weight: bold;       
-    }
-
-		.duration {
-			color: #5da4d9;
-			font-size:12px;
+		.objective p {
+			width: 26%;
+  			display: inline-block;
+  			vertical-align: top;
+  			margin-top: 1px;
 		}
+		
+		.education{
+			position: absolute;
+			width: 17%;
+			margin-left: 43px;
+			display: inline-block;
+  			vertical-align: top;
+  			margin-top: 300px;
+		}
+		.prof{
+			margin-left: 30%;
+			vertical-align: top;
+			width: 70%;
+			display: inline-block;
+			margin-top: 130px;
+			
+		}
+		.h1{
+			margin-top: 1px;
+			vertical-align: top;
+			border-bottom: 3px solid black;
+		}
+		.p{
+			margin-top: 0px;
+			
+			padding: 0px;
+		}
+		.work{
+			margin-top: 0px;
+			line-height: 0px;
+			padding: 0px;
+		}
+		.dot{
+			margin-left: -2%;
+			list-style-type: square;
+			font-size: 17px;
+
+		}
+		.skill{
+			margin-left: 30%;
+			vertical-align: top;
+			width: 70%;
+			display: inline-block;
+			margin-top: 10px;
+		}
+		.me{
+			border-collapse: collapse;
+	 		width: 100%;
+	 		margin-top: 50px;
+
+		}
+		.m{
+			background-color: blue;
+	 		color: white;
+	 		margin-left: 10px;
+	 		border-spacing: 100px;
+		}
+		.e{
+			font-size: 16px;
+	 		background-color: blue;
+	 		color: white;
+
+		}
+		
+    	.phn {
+    		margin-left: 30%;
+    		font-size: 20px;
+    		width: 20%;
+    		position: absolute;
+
+    	}
+    	.email{
+    		position: absolute;
+    		margin-left: 60%;
+    		
+    		width: 20%;
+    	}
+    	.fa{
+    		font-size: 30px;
+    		color: blue;
+    	}
+    	.ht1, .ht{
+    		width: 100%;
+    		outline-width: 100%;
+
+    	}
+    	.skill1{
+    		border-bottom: 3px solid black;
+    	}
+    	.underline{
+    		position: absolute;
+    		margin-top: 300px;
+    		width: 20%;
+    		border-bottom: 6px solid blue;
+    	}
+    	.under{
+    		position: absolute;
+    		margin-top: 820px;
+    		width: 20%;
+    		border-bottom: 6px solid blue;
+    	}
+    	.icons{
+    		position: absolute;
+    		margin-top: 840px;
+    		margin-left: 40px;
+
+    	}
+    	.icons1{
+    		position: absolute;
+    		margin-top: 840px;
+    		margin-left: 80px;
+    	}
+    	.icons2{
+    		position: absolute;
+    		margin-top: 840px;
+    		margin-left: 120px;
+    	}
+    	.icons3{
+    		position: absolute;
+    		margin-top: 840px;
+    		margin-left: 160px;
+    	}
