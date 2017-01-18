@@ -81,7 +81,7 @@
 		.h1{
 			margin-top: 1px;
 			vertical-align: top;
-			border-bottom: 3px solid black;
+			border-bottom: 3px solid blue;
 		}
 		.p{
 			margin-top: 0px;
@@ -148,7 +148,7 @@
 
     	}
     	.skill1{
-    		border-bottom: 3px solid black;
+    		border-bottom: 3px solid blue;
     	}
     	.underline{
     		position: absolute;
