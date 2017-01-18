@@ -135,11 +135,11 @@
     	.email{
     		position: absolute;
     		margin-left: 60%;
-    		margin-top: 50px;
+    		margin-top: 0px;
     		width: 20%;
     	}
     	.fa{
-    		font-size: 60px;
+    		
     		color: blue;
     	}
     	.ht1, .ht{
@@ -155,12 +155,14 @@
     		margin-top: 300px;
     		width: 20%;
     		border-bottom: 6px solid blue;
+    		margin-left: 20px;
     	}
     	.under{
     		position: absolute;
     		margin-top: 820px;
     		width: 20%;
     		border-bottom: 6px solid blue;
+    		margin-left: 20px;
     	}
     	.icons{
     		position: absolute;
