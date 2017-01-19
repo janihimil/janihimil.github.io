@@ -1,5 +1,4 @@
-
-	 	.name{
+.name{
 	 		position: absolute;
 	 		border-collapse: collapse;
 	 		width: 100%;
@@ -111,15 +110,10 @@
 			vertical-align: top;
 			margin-right: 40px;
 			display: inline-block;
-			margin-top: 40px;
+			margin-top: 25px;
 			
 		}
-		.h1{
-			margin-top: 1px;
-
-			vertical-align: top;
-			border-bottom: 3px solid black;
-		}
+		
 		.p{
 			margin-top: 0px;
 			
