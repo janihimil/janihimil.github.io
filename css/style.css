@@ -154,6 +154,11 @@
 		}
 		.d, .f, .g, .h, .j, .k{
 			padding-top: 7px;
+			margin-left: 10px;
+
+		}
+		.s{
+			margin-left: 10px;
 		}
 		.me{
 			border-collapse: collapse;
